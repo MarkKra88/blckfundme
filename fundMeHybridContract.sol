@@ -3,7 +3,6 @@
 pragma solidity ^0.7.0;
 
 import {libPriceConverter} from "./libPriceConverter.sol";
-import "@chainlink/contracts/src/v0.7/vendor/SafeMathChainlink.sol";
 
 contract fundMeContract{
     using libPriceConverter for uint256;
